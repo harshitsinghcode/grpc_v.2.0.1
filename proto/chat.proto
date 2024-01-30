@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package grpc;
+
+message Empty {}
+
+message Note {
+    string name = 1;
+    string message = 2;
+    string id = 3;
+    string title = 4;
+    string content = 5;
+}
+
+service ChatServer {
+    rpc SendNote (Note) returns (Empty);
+}
