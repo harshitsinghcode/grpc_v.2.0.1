@@ -21,7 +21,7 @@ Follow these steps to get started with Jabber v2.0.1:
 - Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/jabber-v2.0.1.git
+   git clone https://github.com/harshitsinghcode/jabber-v2.0.1.git
    
    //Install dependencies:
 
